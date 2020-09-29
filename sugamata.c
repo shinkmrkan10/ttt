@@ -73,7 +73,7 @@ do{
 printf("PLAYER please input board num:");
 scanf("%d",&in_num);
 }while(in_num<1 || 9<in_num);
-printf("%dで良いですか? YES:1 NO:0\n");
+printf("%dで良いですか? YES:1 NO:0\n",in_num);
 do{
 scanf("%d",&flag);
 }while(flag<0 || 1<flag);
